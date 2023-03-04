@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container" >
+        <div class="app-main" >
+            <div class="weatherHead">
+                <h1>Weather App</h1>
+            <div class="city">
+                <input type="text" id="cityName" required placeholder="Enter city name">
+            </div>
+            </div>
+
+           <div class="weatherBody">
+            <div class="wearherdata">
+                <span id="city">Weather Data</span>
+                <h3 id="country"></h3>
+                <p id="tempe"></p>
+                
+                <div class="temps">
+                  <img src="" id="weather" alt="">
+                  <p id="description" style="font-size: 30px; position: relative; bottom: 15px; font-family: 'Yanone Kaffeesatz', sans-serif;"></p>
+                </div>
+                <h2 id="min-max"></h2>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&family=Yanone+Kaffeesatz&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  /* background: #00d0ffd5; */
+  background: linear-gradient(135deg ,#000dffc5,pink);
+  padding: 0 30%;
+}
+h1 {
+  font-family: "Yanone+Kaffeesatz", sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+.app-main {
+  background: #000000d5;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 15%;
+  text-align: center;
+  border-radius: 12px ;
+  border: lightcyan;
+  padding: 5% 5%;
+}
+.weatherHead {
+  background: linear-gradient(135deg ,#ff99cc,#66ffcc);
+  border-radius: 12px;
+}
+.weatherBody {
+  /* background: #ffffff; */
+  background: linear-gradient(135deg ,#ff99cc,#66ffcc);
+
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 3% 0;
+}
+
+.city {
+  padding: 5% 30%;
+}
+#city {
+  height: 5vh;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+.city input {
+  height: 5vh;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  /* border-radius: 12px; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border: none;
+  border-bottom: 1px solid black;
+
+}
+.city input:focus {
+  /* background: #00000069; */
+  color: #044b5b;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: 500;
+  outline: none;
+}
+
+#city {
+  width: 100%;
+  height: auto;
+}
+#tempe {
+  width: 100%;
+  height: auto;
+  /* padding: 5% 0; */
+}
+img {
+  height: 100px;
+  width: auto;
+
+  animation: 
+    /* pulse 3s ease infinite alternate,  */
+    nudge 5s  infinite ;
+}
+
+
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(15px, 0);
+  }
+  
+  80% {
+    transform: translate(-15px, 0);
+  }
+}
+
+/* boder animation */
